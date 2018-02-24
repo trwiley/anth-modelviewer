@@ -1,0 +1,21 @@
+{
+    "models": [
+        {
+           "name":"Dark Pre-Choctaw Little Bear Creek-Type Projectile Point Arrowhead, 2,500 BC",
+           "description":"flippy flappy",
+           "filepath": "../models/Bear_Creek_Point_Dark.stl"
+        },
+
+        {
+            "name": "Venus of Dolní Věstonice at The Vienna Natural History Museum, Austria",
+            "description": "flippy flappy",
+            "filepath":"../models/venus-of-dolni-vestonice-1.stl"
+        },
+        {
+            "name":"Foot, Right Human Fully assembled",
+            "description": "flippy flappy",
+            "filepath":"../models/human-foot-right-assembled.stl"
+        }
+        
+    ]
+}
