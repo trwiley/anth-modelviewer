@@ -1,5 +1,5 @@
-{
-    "models": [
+var models = {
+    "models":[
         {
            "name":"Dark Pre-Choctaw Little Bear Creek-Type Projectile Point Arrowhead, 2,500 BC",
            "description":"flippy flappy",
