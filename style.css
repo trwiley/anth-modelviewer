@@ -25,27 +25,21 @@ body {
 }
 
 #parent {
-    height: 300px;
+    height: 400px;
     width: 70%;
     margin: auto;
 }
 
 #infopane {
-    height: 300px;
+    height: 200px;
     margin: auto;
     background-color: #ffe74c;
-    display: inline-block;
-    width: calc(50% - 8px);         /* standards-based answer for IE9+, FF16+ */
-    width: -moz-calc(50% - 8px);    /* support for FF4 - FF15                 */
-    width: -webkit-calc(50% - 8px); /* support for Chrome19+ and Safari6+     */
+    width: 100%;
 }
 
 #selectpane {
-    height: 300px;
+    height: 200px;
     margin: auto;
     background-color: #35a7ff;
-    display: inline-block;
-    width: calc(50% - 8px);         /* standards-based answer for IE9+, FF16+ */
-    width: -moz-calc(50% - 8px);    /* support for FF4 - FF15                 */
-    width: -webkit-calc(50% - 8px); /* support for Chrome19+ and Safari6+     */
+    width: 100%;
 }
