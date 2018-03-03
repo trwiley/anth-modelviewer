@@ -28,18 +28,29 @@ body {
     height: 400px;
     width: 70%;
     margin: auto;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    color: #3A606E;
 }
 
 #infopane {
-    height: 100px;
+    height: 120px;
     margin: auto;
     background-color: #AAAE8E;
-    width: 100%;
+    width: calc(100% - 30px);
+    overflow: scroll;
+    padding: 15px;
 }
 
 #selectpane {
-    height: 100px;
+    height: 120px;
     margin: auto;
     background-color: #AAAE8E;
-    width: 100%;
+    width: calc(100% -30px);
+    font-weight: bold;
+    overflow: scroll;
+    padding: 15px;
+}
+
+dt {
+    font-weight: bold;
 }

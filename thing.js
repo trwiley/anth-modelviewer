@@ -7,11 +7,14 @@ window.onload = function() {
     thingiview.setRotation(false);
 
     var pane = document.getElementById("selectpane");
-    var text = "";
+    var text = "<ul>";
     
     for(var i = 0; i < models.models.length; i++) {
-      text = text + "<p id = " + i + " onclick = loadmodel(" + i + ")>" + models.models[i].name + "</p><br />";
+
+      text = text + "<li id = " + i + " onclick = loadmodel(" + i + ")>" + models.models[i].name + "</li>";
     }
+
+    text = text + "</ul>"
 
     pane.innerHTML = text;
   }
