@@ -7,7 +7,7 @@ window.onload = function() {
     thingiview.setRotation(false);
 
     var pane = document.getElementById("selectpane");
-    var text;
+    var text = "";
     
     for(var i = 0; i < models.models.length; i++) {
       text = text + "<p id = " + i + " onclick = loadmodel(" + i + ")>" + models.models[i].name + "</p><br />";
@@ -21,7 +21,7 @@ loadmodel = function(a) {
   thingiview.loadSTL(models.models[a].filepath);
 
   var infoPane = document.getElementById("infopane");
-  var info = "<dl><dt>Name</dt><dd>" + models.model[a].name + "</dd><dt>Description</dt><dd>" + models.model[a].description + "</dd></dl>";
+  var info = "<dl><dt>Name</dt><dd>" + models.models[a].name + "</dd><dt>Description</dt><dd>" + models.models[a].description + "</dd></dl>";
 
   infoPane.innerHTML = info;
 
