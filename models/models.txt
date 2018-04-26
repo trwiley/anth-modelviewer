@@ -1,0 +1,11 @@
+Australopithecus_africanus500kML.stl
+craneo.stl
+Homo_erectus_cranium_Duke.stl
+Homo_habilis_mandible_Duke.stl
+Homo_habilis_skull_Duke.stl
+Homo_neanderthalensis_cranium_Duke.stl
+Homo_neanderthalensis_mandible.stl
+Homo_sapiens_cranium_Duke.stl
+Homo_sapiens_mandible.stl
+models.txt
+Skull.stl
