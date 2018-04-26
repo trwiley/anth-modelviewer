@@ -3,7 +3,7 @@ window.onload = function() {
     thingiview = new Thingiview("modelview");
     thingiview.setObjectColor('#C0D8F0');
     thingiview.initScene();
-    thingiview.loadSTL("../models/QBERT.stl");
+    thingiview.loadSTL("../models/h_erectus.stl");
     thingiview.setRotation(false);
 
     var pane = document.getElementById("selectpane");
